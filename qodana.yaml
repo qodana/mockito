@@ -1,0 +1,6 @@
+exclude:
+  - name: All
+    paths:
+      - gradle/retry-test.gradle
+      - src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java #cause of probelms with Quick-fixes
+      - src/test
